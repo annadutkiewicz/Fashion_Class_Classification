@@ -5,7 +5,7 @@
 
 Fashion dataset consists of 70,000 images divided into 60,000 training and 10,000 testing samples. Dataset sample consists of 28x28 grayscale image, associated with a label.
 
-There are 10 classes available:  
+There are 10 classes (labels) available:  
 - 0 => T-shirt/top
 - 1 => Trouser
 - 2 => Pullover
@@ -17,10 +17,24 @@ There are 10 classes available:
 - 8 => Bag
 - 9 => Ankle boot
 
+Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255.
+
 ### Workflow
 1. Data import
-- Load libraries (pandas, numpy, matplotlib, seaborn)
+- Load libraries
 - Load dataset
+2. Data visualizing
+- Display dataframe
+- Display random images
+3. Model training
+- Prepare train, validation and test datasets
+- Create neural network model
+- Compile model
+- Train model
+4. Model evaluating
+- Test data
+- Print heatmap
+- Print classification report
 
 ### Conclusions
 1. Using SVM machine learning technique we were able to classify cancer type with 97% accuracy
