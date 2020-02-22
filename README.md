@@ -3,6 +3,8 @@
 
 **The aim is to predict type of clothes on the image**
 
+Fashion dataset consists of 70,000 images divided into 60,000 training and 10,000 testing samples. Dataset sample consists of 28x28 grayscale image, associated with a label.
+
 There are 10 classes available:  
 - 0 => T-shirt/top
 - 1 => Trouser
